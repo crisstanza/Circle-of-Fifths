@@ -2,6 +2,9 @@
 	font-family: Roboto;
 }
 
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
 h1.sharp, span.sharp { color: blue; }
 h1.flat, span.flat { color: green; }
 
@@ -42,4 +45,9 @@ td[colspan='7'] {
 
 td[colspan='7'] span {
 	letter-spacing: initial;
+}
+
+tfoot td {
+	padding-top: 45px;
+	font-size: 0.8em;
 }
