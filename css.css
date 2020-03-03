@@ -1,15 +1,45 @@
 * {
-    font-family: Roboto;
+	font-family: Roboto;
+}
+
+h1.sharp, span.sharp { color: blue; }
+h1.flat, span.flat { color: green; }
+
+h1 {
+	margin: 10px 0 15px 0;
+	text-align: center;
+	font-size: 4em;
 }
 
 table {
-    margin: auto;
-    border: 1px;
-    border-collapse: collapse;
+	margin: auto;
+	border: 1px solid #EEEEEE99;
+	border-collapse: collapse;
 }
 
 td {
-    width: 30px;
-    height: 30px;
-    text-align: center;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+td.root {
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+td.root span {
+	font-size: 0.8em;
+	font-weight: initial;
+}
+
+td[colspan='7'] {
+	letter-spacing: 10px;
+	color: #777;
+	font-size: 1.3em;
+}
+
+td[colspan='7'] span {
+	letter-spacing: initial;
 }

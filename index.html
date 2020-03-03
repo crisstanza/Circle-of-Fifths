@@ -1,43 +1,98 @@
-<link rel="stylesheet" type="text/css" href="css.css">
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css.css" />
+	</head>
+	<body>
 
-<table border="1">
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="7">C D E F G A B</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>C</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>F</td><td></td><td></td><td></td><td>G</td><td colspan="7">G A B C D E F</td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>B&flat;</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>D</td><td colspan="7">D E F G A B C</td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>E&flat;</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>A</td><td colspan="7">A B C D E F G</td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>A&flat;</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>E</td><td colspan="7">E F G A B C D</td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td colspan="7">C D E F G A B<td>C&sharp;</td><td></td><td></td><td></td><td>B</td><td colspan="7">B C D E F G A</td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>F&sharp;</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-        <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="7">F G A B C D E</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
-    </tr>
-</table>
+		<h1 class="sharp">&sharp;</h1>
+		<table border="1">
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="7">C D E F G A B</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root">C<br /><span>0</span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root">F</td><td></td><td></td><td></td><td class="root"><span class="sharp">1</span> G</td><td colspan="7">G A B C D E <span>F&sharp;</span></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root">B&flat;</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root"><span class="sharp">2</span> D</td><td colspan="7">D E <span>F&sharp;</span> G A B <span>C&sharp;</span></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root">E&flat;</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root"><span class="sharp">3</span> A</td><td colspan="7">A B <span>C&sharp;</span> D E <span>F&sharp;</span> <span>G&sharp;</span></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root">A&flat;</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root"><span class="sharp">4</span> E</td><td colspan="7">E <span>F&sharp;</span> <span>G&sharp;</span> A B <span>C&sharp;</span> <span>D&sharp;</span></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td colspan="7"><span>C&sharp;</span> <span>D&sharp;</span> <span>E&sharp;</span> <span>F&sharp;</span> <span>G&sharp;</span> <span>A&sharp;</span> <span>B&sharp;</span><td class="root">C&sharp; <span class="sharp">7</span></td><td></td><td></td><td></td><td class="root"><span class="sharp">5</span> B</td><td colspan="7">B <span>C&sharp;</span> <span>D&sharp;</span> E <span>F&sharp;</span> <span>G&sharp;</span> <span>A&sharp;</span></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root"><span class="sharp">6</span><br />F&sharp;</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="7"><span>F&sharp;</span> <span>G&sharp;</span> <span>A&sharp;</span> B <span>C&sharp;</span> <span>D&sharp;</span> <span>E&sharp;</span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+		</table>
+
+		<br />
+		<br />
+
+		<h1 class="flat">&flat;</h1>
+		<table border="1">
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="7">C D E F G A B</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root">C<br /><span>0</span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td colspan="7">F G A <span>B&flat;</span> C D E</td><td class="root">F <span class="flat">1</span></td><td></td><td></td><td></td><td class="root">G</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td colspan="7"><span>B&flat;</span> C D <span>E&flat;</span> F G A</td><td class="root">B&flat; <span class="flat">2</span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root">D</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td colspan="7"><span>E&flat;</span> F G <span>A&flat;</span> <span>B&flat;</span> C D</td><td class="root">E&flat; <span class="flat">3</span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root">A</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td colspan="7"><span>A&flat;</span> <span>B&flat;</span> C <span>D&flat;</span> <span>E&flat;</span> F G</td><td class="root">A&flat; <span class="flat">4</span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root"> E</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td colspan="7"><span>D&flat;</span> <span>E&flat;</span> F <span>G&flat;</span> <span>A&flat;</span> <span>B&flat;</span> C<td class="root">D&flat; <span class="flat">5</span></td><td></td><td></td><td></td><td class="root"><span class="flat">7</span> C&flat;</td><td colspan="7"><span>C&flat;</span> <span>D&flat;</span> <span>E&flat;</span> <span>F&flat;</span> <span>G&flat;</span> <span>A&flat;</span> <span>B&flat;</span></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td class="root"><span class="flat">6</span><br />G&flat;</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+			<tr>
+				<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td colspan="7"><span>G&flat;</span> <span>A&flat;</span> <span>B&flat;</span> C <span>D&flat;</span> <span>E&flat;</span> F</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tr>
+		</table>
+
+	</body>
+</html>
